@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Halaman about</h1>
+    <h1>Halaman Profile</h1>
+    <p>Nama saya adalah {{ $name }}</p>
     <ul>
         <li><a href="/">Home</a></li>
-        <li>About</li>
-        <li><a href="/profile">Profile</a></li>
+        <li><a href="/about">About</a></li>
+        <li>Profile</li>
         <li><a href="/mahasiswa">Mahasiswa</a></li>
     </ul>
 
